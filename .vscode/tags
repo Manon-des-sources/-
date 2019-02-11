@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+MainWindow	../UI\UI_Setup.py	/^    MainWindow = QMainWindow()$/;"	kind:variable	line:30
+QApplication	../UI\UI_Setup.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow$/;"	kind:namespace	line:7
+QIcon	../UI\UI_Setup.py	/^from PyQt5.QtGui import QIcon$/;"	kind:namespace	line:6
+QMainWindow	../UI\UI_Setup.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow$/;"	kind:namespace	line:7
+QtCore	../Scripts\UIpy分析.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	kind:namespace	line:9
+QtCore	../UI\UI.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	kind:namespace	line:9
+QtGui	../Scripts\UIpy分析.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	kind:namespace	line:9
+QtGui	../UI\UI.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	kind:namespace	line:9
+QtWidgets	../Scripts\UIpy分析.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	kind:namespace	line:9
+QtWidgets	../UI\UI.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	kind:namespace	line:9
+UI.py	../UI\UI.py	1;"	kind:file	line:1
+UI_Setup.py	../UI\UI_Setup.py	1;"	kind:file	line:1
+UIpy分析.py	../Scripts\UIpy分析.py	1;"	kind:file	line:1
+Ui_MainWindow	../Scripts\UIpy分析.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:12
+Ui_MainWindow	../UI\UI.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:11
+Ui_MainWindow	../UI\UI_Setup.py	/^from UI import Ui_MainWindow$/;"	kind:namespace	line:3
+WindowSetup	../UI\UI_Setup.py	/^class WindowSetup(Ui_MainWindow):$/;"	kind:class	line:9
+__init__	../UI\UI_Setup.py	/^    def __init__(self, MainWindow):$/;"	kind:member	line:10
+__init__.py	../UI\__init__.py	1;"	kind:file	line:1
+app	../UI\UI_Setup.py	/^    app = QApplication(sys.argv)$/;"	kind:variable	line:28
+exe	../UI\UI_Setup.py	/^    exe = WindowSetup(MainWindow)$/;"	kind:variable	line:31
+main.py	../main.py	1;"	kind:file	line:1
+retranslateUi	../Scripts\UIpy分析.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:166
+retranslateUi	../UI\UI.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:162
+setupUi	../Scripts\UIpy分析.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:13
+setupUi	../UI\UI.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:12
+setupWindow	../UI\UI_Setup.py	/^    def setupWindow(self, MainWindow):$/;"	kind:member	line:14
+sys	../UI\UI_Setup.py	/^import sys$/;"	kind:namespace	line:5
