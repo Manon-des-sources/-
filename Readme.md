@@ -2,7 +2,7 @@
 
 * 1、在**协议数据帧窗口**选中协议数据后可以右键选择**按指定协议解析**：
 
-    ![1001](Scripts\select protocal by right key.png)
+    ![1001](Scripts\selectProtocalByRightKey.png)
 
 * 2、增加协议
 
