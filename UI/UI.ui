@@ -97,7 +97,7 @@ p, li { white-space: pre-wrap; }
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../image/右箭头.png</normaloff>../image/右箭头.png</iconset>
+            <normaloff>C:/Users/chenchen/.designer/image/右箭头.png</normaloff>C:/Users/chenchen/.designer/image/右箭头.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -129,7 +129,7 @@ p, li { white-space: pre-wrap; }
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../image/回收站.png</normaloff>../image/回收站.png</iconset>
+            <normaloff>C:/Users/chenchen/.designer/image/回收站.png</normaloff>C:/Users/chenchen/.designer/image/回收站.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -155,7 +155,7 @@ p, li { white-space: pre-wrap; }
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../image/打开.png</normaloff>../image/打开.png</iconset>
+            <normaloff>C:/Users/chenchen/.designer/image/打开.png</normaloff>C:/Users/chenchen/.designer/image/打开.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -181,7 +181,7 @@ p, li { white-space: pre-wrap; }
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../image/保存.png</normaloff>../image/保存.png</iconset>
+            <normaloff>C:/Users/chenchen/.designer/image/保存.png</normaloff>C:/Users/chenchen/.designer/image/保存.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -265,8 +265,16 @@ p, li { white-space: pre-wrap; }
     <property name="title">
      <string>窗口</string>
     </property>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>增加协议</string>
+     </property>
+     <addaction name="QuickEdit"/>
+     <addaction name="ProtocolCodeEdit"/>
+    </widget>
     <addaction name="actionHistory"/>
-    <addaction name="actionaddProtocal"/>
+    <addaction name="SelectProtocol"/>
+    <addaction name="menu_3"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menu_2"/>
@@ -299,9 +307,15 @@ p, li { white-space: pre-wrap; }
     <layout class="QVBoxLayout" name="verticalLayout_5">
      <item>
       <widget class="QTreeView" name="treeView_history_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
+         <width>100</width>
          <height>16777215</height>
         </size>
        </property>
@@ -489,12 +503,19 @@ p, li { white-space: pre-wrap; }
     <string>关于</string>
    </property>
   </action>
-  <action name="actionaddProtocal">
+  <action name="QuickEdit">
    <property name="text">
-    <string>增加协议</string>
+    <string>快速编辑器</string>
    </property>
-   <property name="statusTip">
-    <string>增加协议</string>
+  </action>
+  <action name="ProtocolCodeEdit">
+   <property name="text">
+    <string>协议代码编辑</string>
+   </property>
+  </action>
+  <action name="SelectProtocol">
+   <property name="text">
+    <string>选择协议</string>
    </property>
   </action>
  </widget>
